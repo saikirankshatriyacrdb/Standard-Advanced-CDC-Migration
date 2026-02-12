@@ -1,0 +1,30 @@
+# Credentials and secrets
+credentials
+*.crt
+*.key
+*.pem
+
+# State files (generated at runtime)
+cdc_consumer_state.json
+
+# Logs
+*.log
+
+# CockroachDB binary
+cockroach-v*/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Early draft plans (contain env-specific details, superseded by Migration Guide)
+migration_plan_kafka.md
+migration_plan_s3.md
+
+# Claude Code
+.claude/
